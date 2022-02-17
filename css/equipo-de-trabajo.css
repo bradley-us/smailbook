@@ -1,0 +1,189 @@
+/* GENERAL */
+
+.titulo h1 {margin: 15px;}
+
+.container {
+    width: 100%;
+}
+
+.container p {
+    padding: 10px;
+    margin: 10px;
+}
+/* FIN GENERAL  */
+
+
+/* SOBRE NOSOTROS - PROPIEDADES */
+.container p {color: #454545}
+
+.container .a-sobrenosotros a {
+    color: #3D92C6;
+    background: #FFF;
+    border-radius: 50px;
+    padding: 15px 60px 15px 60px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.container .a-sobrenosotros a:hover {
+    color: rgba(0,0,0,0.8);
+}
+
+.content-edt {width: 100%;}
+
+.side img {
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+/* FIN SOBRE NOSOTROS */
+
+
+
+
+/* CONTÁCTANOS - PROPIEDADES */
+
+#content-edt {
+    padding: 20px;
+    width: 100%;
+    font-size: 18px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#fixed-content {padding: 40px;
+width: 100%; margin: auto;}
+/* FIN CONTÁCTANOS */
+
+
+/* Thankscontact */
+.content-thankscontact {
+    width: 100%;
+    background: #F7F7F7;
+}
+
+.a-thankscontact {
+    color: #3D92C6;
+    font-size: 20px;
+    display: block;
+    margin: 5px auto;
+    background: #FFF;
+    padding: 15px;
+    border: 2px solid #F2F2F2;
+}
+
+.a-thankscontact:hover {
+    background: #00BCD1;
+    color: #FFF;;
+}
+
+.container-thankscontact {
+    color: #616161;
+    padding: 20px;
+}
+    /* FIN THANKSCONTACT */
+
+
+/* CONTACTACNOS PROPIEDADES DEL CONTENIDO */
+
+#form-content {
+    width: 100%;
+    max-width: 300px;
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 5px;
+    display: block;
+    box-shadow: 0px 0px 6px rgba(0,0,0,.5)
+}
+
+#form-content h4 {padding: 7px; font-size: 20px; text-align: center; color: rgba(0,0,0,0.6); margin-bottom: 10px;}
+
+input {padding: 12px; margin-bottom: 7px; width: 100%; background: #FFF}
+
+.form-group1 {
+    width: 100%;
+}
+
+.form-group0 {
+    width: 40%;
+    margin:auto;
+    margin-top: 5px;
+    display: inline-block
+}
+
+.form-group0 button {
+    padding: 10px; width: 100%; background: #FFF; font-size: 16px; border: 1px solid #CCC; cursor: pointer;
+}
+
+.form-group0 button:hover {
+    background: #00BCD1;
+    color: #FFF;
+}
+
+button {cursor: pointer;}
+
+.form-group1 textarea {padding: 13px; border-bottom: 2px solid #CCC; border-top: 0; border-left: 0; border-right: 0; width: 100%; background: #FFF;}
+
+textarea:hover {border-bottom: 2px solid #6D6FE7;}
+
+#fixed-form-content {width: 57%; display: inline-block;}
+#fixed-imgcontactus {width: 42%; display: inline-block;}
+
+.imgcontactus {
+    display: block;
+    width: 100%;
+}
+
+.imgcontactus .img1c, .img2c {
+    width: 100%;
+}
+/* FIN */
+
+
+
+
+
+@media screen and (max-width: 920px) {
+    
+    
+    /* PROPIEDADES CONTENIDO CONTÁCTANOS */
+    #fixed-content {padding: 0}
+    
+    #fixed-form-content {width: 55%; display: inline-block;}
+    
+    #fixed-imgcontactus {display: inline-block; width: 40%;}
+    .imgcontactus {
+        max-width: 250px;
+        width: 100%;
+    }
+    #content {width: 100%; padding: 10px;}
+    /* FIN */
+}
+
+@media screen and (max-width: 860px) {
+    /* PROPIEDADES CONTENIDO CONTÁCTANOS */
+    #fixed-form-content {width: 100%; padding: 20px;}
+    #form-content {margin: auto; display: block;}
+    
+    #fixed-imgcontactus {width: 100%; padding: 20px; background: #f7f7f7; border-radius: 10px; box-shadow: 0px 0px 5px rgba(0,0,0,.2);}
+    .imgcontactus {display: block; margin: auto;}
+}
+
+
+@media screen and (max-width: 650px) {    
+    
+}
+
+
+@media screen and (max-width: 460px) {
+    /* PROPIEDADES CONTENIDO CONTÁCTANOS */
+    #form-content h4 {font-size: 16px;}
+    /* FIN */
+}
+
+
+@media screen and (max-width: 330px) {
+    
+}

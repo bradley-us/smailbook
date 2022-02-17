@@ -1,0 +1,21 @@
+.my-gallery {
+z-index: 100000000000000000000000000000000000000000000000;
+  width: 100%;
+  float: left;
+}
+.my-gallery img {
+z-index: 100000000000000000000000000000000000000000000000000;
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+    z-index: 10000000000000000000000000000000000;
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 150px;
+}
+.my-gallery figcaption {
+    z-index: 10000000000000000000000000000000000000000;
+  display: none;
+}

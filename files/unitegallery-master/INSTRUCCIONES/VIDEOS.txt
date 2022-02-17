@@ -1,0 +1,3 @@
+Para cambiar un video:
+
+Cambie los estilos CSS del efecto video e incruste el SCRIPT que corresponda, sin olvidar el HTML

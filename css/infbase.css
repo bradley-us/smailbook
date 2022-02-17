@@ -1,0 +1,242 @@
+/* BOX-SUBMENU-ACCORDION */
+.box-submenu-accordion {width: 100%; padding: 15px;}
+.w1-all-items .box-submenu-accordion h3 {color: #555; text-align: left;}
+.w1-all-items .box-submenu-accordion p {font-size: 16px; color: #333;}
+.w1-all-items .box-submenu-accordion a {display: inline-block; padding: 0; color: #3D92C6;}
+/* FIN */
+
+/* GENERAL - BOX VIDEOS OR ITEMS FOR OTHER PAGES */
+.box-down-accordion-menu {width: 100%; padding: 10px; margin-top: 20px;}
+.all-items-box-down-accordion-menu {width: 100%; padding: 10px;}
+.items-box-down-accordion-menu {width: 100%; margin: 20px 0px; overflow: hidden;}
+.inside-items-square {float: left;}
+.inside-items-txt-square {width: 50%; padding: 10px; float: right;}
+/* FIN */
+
+
+/*CINE*/
+.containerinfocine {
+    width: 100%;
+    overflow: hidden;
+}
+
+.containerinfocine hr {width: 90%; margin: auto; border: 1px solid #ddd;}
+
+
+.imgscine1 {float: left; width: 100%;}
+
+.imgscine2 {float: left; width: 100%;}
+
+.imgscine3 {float: left; width: 100%;}
+
+.imgscine4 {float: left; width: 100%;}
+
+.imgscine5 {float: left; width: 100%;}
+
+.imgscine6 {float: left; width: 100%;}
+
+.imgscine7 {float: left; width: 100%;}
+
+.imgscine8 {float: left; width: 100%;}
+
+
+
+
+
+.imgscine {
+    float: left;
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.imgscine img {
+    width: 100%;
+    margin: auto;
+}
+
+
+.infocartel {
+    width: 75%;
+    float: right;
+    margin: 0px 0px 30px 0px;
+    background-color: #f7f7f7;
+}
+
+.infocartel p {
+    padding: 15px;
+}
+
+.infogeneraldelcine {
+    padding: 20px;
+    background-color: antiquewhite;
+    display: inline-block;
+}
+
+.trailers {
+    padding: 30px;
+    margin: auto;
+    float: left;
+}
+
+.sipnosis {
+    float: right;
+    width: 100%;
+    padding: 7px;
+}
+
+
+
+
+
+
+
+/*PREGUNTAS FRECUENTES*/ 
+
+.preguntasfrecuentesinfoc {
+    width: 100%;
+    background: #3b5998;
+    display: inline-block;
+}
+
+.preguntasfrecuentesinfoc p, .preguntasfrecuentesinfoc h2 {
+    color: #F2F2F2;
+}
+
+.preguntasfrecuentesinfoc p {
+    padding: 7px;
+}
+
+.preguntasfrecuentesinfoc a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 920px) {
+    /* GENERAL - BOX VIDEOS OR ITEMS FOR OTHER PAGES */
+.box-down-accordion-menu {padding: 5px;}
+.all-items-box-down-accordion-menu {padding: 0px;}
+.inside-items-square {float: none; height: 270px;}
+.inside-items-txt-square {float: none; width: 100%; margin: auto;}
+    /* FIN */
+    
+    /* PREG. FREC. */
+    .mainprfr {
+        position: static;
+    }
+    .contentbase1, .contentbase2, .contentbase3, .contentbase4 {
+        width: 92%;
+        margin: auto;
+        float: none;
+        margin-top: 15px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* CINE */
+    .imgscine {
+        width: 20%;
+        margin-left: 15px;
+    }
+    .infocartel {
+        width: 75%
+    }
+    .trailers {
+        float: right;
+        margin-right: 50px;
+        padding: 0px;
+    }
+}
+
+
+
+@media screen and (max-width: 650px) {
+    /* GENERAL - BOX VIDEOS OR ITEMS FOR OTHER PAGES */
+.inside-items-square {float: none; width: 85%; margin: auto; height: 220px;}
+.inside-items-txt-square {width: 85%; float: none;}
+    /* FIN */
+    
+    
+    
+    
+    /* W1-ALL-ITEMS */
+    .w1-all-items {padding: 0px;}
+    /* FIN */
+    
+    .contentinfocentralizq {
+    width: 100%;
+}
+    
+    /* PREG. FREC. */
+
+    .contentbase1, .contentbase2, .contentbase3, .contentbase4 {
+        width: 100%;
+        float: none;
+    }
+    
+    .prfr-table {
+        width: 100%;
+    }
+    /* FIN PRFR */
+    
+    .imgscine {
+        width: 35%;
+        margin-left: 10px;
+    }
+    .infocartel {
+        width: 60%;
+    }
+    .trailers {
+        margin-right: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+    iframe {
+        width: 100%;
+        height: 220px; 
+    }
+}
+
+
+@media screen and (max-width: 460px) {
+    /* GENERAL - BOX VIDEOS OR ITEMS FOR OTHER PAGES */
+.box-down-accordion-menu {padding: 5px;}
+.all-items-box-down-accordion-menu {padding: 0px; overflow: auto;}
+.inside-items-square  {width: 100%;}
+.inside-items-txt-square {width: 100%;}
+    /* FIN */
+    
+    
+    
+    
+    
+    
+    .imgscine {
+        width: 50%;
+        float: none;
+        margin: auto;
+    }
+    .infocartel {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .imgscine {
+        width: 70%;
+    }
+}
+
+

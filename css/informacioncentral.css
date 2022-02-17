@@ -1,0 +1,240 @@
+.contentinfoccateg {
+    width: 95%;
+    margin: auto;
+    background-color: #f8f8f8;
+}
+
+.contentinfoccateg a {
+    display: block;
+    color: #f1f1f1;
+    background: #3D92C6;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contentinfoccateg a:hover {background: #1D72A6;}
+
+
+
+.containerinfocentral img {
+    width: 100%;
+}
+
+.containerinfocentral hr {width: 90%; margin: auto; border: 1px solid #ddd;}
+
+
+
+.sidebar1 {
+    width: 25%;
+    float: right;
+    padding: 10px;
+}
+
+
+
+
+
+.footerscrinfocentral {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.containerinfocentral {
+    width: 100%;
+    overflow: hidden;
+} 
+
+.containerinfocentral img {
+    width: 100%;
+}
+.containerinfocentral p{
+    padding: 5px;
+}
+
+    #imgearth {
+    width: 48%;
+    display: inline-block;
+}
+    .img-align-1 {width: 120px; margin: auto;}
+
+
+    #imgseresv {
+    width: 48%;
+    display: inline-block;
+}
+    
+    .img-align-2 {width: 200px; margin: auto;}
+
+    #imgsports {
+    width: 48%;
+    display: inline-block;
+}
+
+    .img-align-3 {width: 140px; margin: auto;}
+
+    #imgtecn {
+    width: 48%;
+    display: inline-block;
+}
+    
+    .img-align-4 {width: 200px; margin: auto;}
+
+
+
+    #imgvacaciones {
+    width: 48%;
+    display: inline-block;
+}
+
+    .img-align-5 {width: 115px; margin: auto;}
+
+    #imgcine {
+    width: 48%;
+    display: inline-block;
+}
+
+    .img-align-6 {width: 100px; margin: auto;}
+
+    #imgtv {
+    width: 48%;
+    display: inline-block;
+}
+
+    .img-align-7 {width: 135px; margin: auto;}
+
+    #imgprogramacion {
+    width: 48%;
+    display: inline-block;
+}
+
+    .img-align-8 {width: 190px; margin: auto;}
+
+
+
+
+
+
+.textdescr {
+    width: 50%;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+
+/*-------------------------------------------------------------*/
+
+
+.naturalinfoc {
+    width: 95%;
+    margin: auto;
+}
+
+.seresinfoc {
+    width: 95%;
+    margin: auto;
+}
+
+.deportesinfoc {
+    width: 95%;
+    margin: auto;
+}
+
+.tecnologiainfoc {
+    width: 95%;
+    margin: auto;
+}
+
+.turismovacainfoc {
+    width: 95%;
+    margin: auto;
+}
+
+.cineinfoc {
+    width: 95%;
+    margin: auto;
+}
+
+.tvinfoc {
+    width: 95%;
+    margin: auto;
+}
+
+.programacioninfoc {
+    width: 95%;
+    margin: auto;
+}
+
+
+.contentinfoccateg .hrinfoc {width: 90%; margin: auto; margin-bottom: 15px;  border: 1px dotted #CCC;}
+/*---------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 920px) {
+
+}
+
+
+
+
+@media screen and (max-width: 650px) {
+    .textdescr {width: 60%;}    
+    #imgearth, #imgseresv, #imgsports, #imgtecn, #imgvacaciones, #imgcine, #imgtv, #imgprogramacion {width: 35%;}
+    .contentinfoccateg {width: 100%;}
+}
+
+@media screen and (max-width: 460px) {
+    #imgearth, #imgseresv, #imgsports, #imgtecn, #imgvacaciones, #imgcine, #imgtv, #imgprogramacion, .textdescr {width: 100%; display: block; margin: auto;}
+}

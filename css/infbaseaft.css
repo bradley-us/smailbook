@@ -1,0 +1,280 @@
+.col-html {background-image: url(../img/col-html.jpg)}
+
+.col-h1 {
+    font-size: 30px;
+    padding: 5px;
+    border-bottom: 5px solid #00bcd1;
+}
+
+.after-title-col {width: 100%; padding: 20px; overflow: hidden;}
+
+.imgs-after-titlecaracol {width: 49%; display: inline-block;}
+.imgs-after-titlercn {width: 49%; display: inline-block;}
+
+.pic-imgs-col {width: 20%; min-width: 50px; margin: auto; display: block;}
+
+.imgs-after-titlecaracol img {width: 100%;}
+.imgs-after-titlercn img {width: 100%;}
+
+.p-imgs-col {text-align: center; font-size: 12px; color: #000;}
+
+
+/* ----------------------------- */
+
+
+.wrapper-col {width: 100%; margin: auto; padding: 20px;}
+
+.wrapper-col h1 {color: #454545; font-size: 24px;}
+
+.content-col {width: 100%;}
+
+.content-col h1 {text-align: left;}
+
+.info-content-col {background: #F3F3F3; padding: 10px; width: 100%; overflow: hidden;}
+
+.file-col {
+    width: 35%;
+    height: 135px;
+    background: pink;
+    float: left;
+}
+
+.label-for-file-col {width: 65%; padding: 10px; float: right; background: #CCC; height: 135px;}
+
+
+.hr-inside-wrapper-col {display: none;}
+
+
+/* TEMPLATES CANALES */
+.info-content-channels-col {padding: 10px; width: 100%;}
+
+.file-channels-col {
+    width: 100%;
+    border: 1px solid #d3d3d3;
+}
+
+.label-for-file-channels-col {width: 100%; padding: 10px; margin: 20px 0;}
+
+/* FIN PÁG CANALES */
+
+
+/* CONTENT-INFO BASE */
+.wrapper-infos-col {width: 90%; background: #000; overflow: hidden; margin: auto; border: 2px solid white; padding: 35px; border-radius: 10px; overflow: hidden;}
+
+.info-content-infos-col {height: px; background: #F3F3F3; padding: 10px; width: 100%; overflow: hidden;}
+
+
+.file-infos-col {
+    width: 80%;
+    margin: auto;
+    height: 200px;
+    background: pink;
+}
+
+.label-for-file-infos-col {width: 100%; padding: 10px; float: right; background: #CCC; height: 300px;}
+
+/* FIN */
+
+
+
+
+
+
+
+/* ------------------------------------------- VIDEOS ------------------------------------------- */
+
+.w1-all-items-videos {
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    overflow-y: scroll;
+    height: 2000px;
+    background: #F7F7F7
+}
+
+/* P DE VIDEOS */
+.w1-videos-1 p {position: relative; top: 100px;}
+.w1-videos-2 p {position: relative; top: 100px;}
+.w1-videos-3 p {position: relative; top: 100px;}
+.w1-videos-4 p {position: relative; top: 100px;}
+
+.w1-videos-main p {position: relative; top: 330px;}
+.w1-videos-submain-1 p {position: relative; top: 135px;}
+.w1-videos-submain-2 p {position: relative; top: 135px;}
+
+.w1-videos-1-1 p {position: relative; top: 100px;}
+.w1-videos-2-2 p {position: relative; top: 100px;}
+.w1-videos-3-3 p {position: relative; top: 100px;}
+.w1-videos-4-4 p {position: relative; top: 100px;}
+
+/* FIN P DE VIDEOS */
+
+.w1-all-videos {background: #F7F7F7; width: 98%; margin: auto; padding: 15px; overflow: hidden;}
+
+.w1-videos-1 {float: left; background: #CCC; width: 23.5%;; height: 130px;}
+.w1-videos-2 {float: left;; margin-left: 2%; background: #CCC; width: 23.5%; height: 130px;}
+.w1-videos-3 {float: left;; margin-left: 2%; background: #CCC; width: 23.5%; height: 130px;}
+.w1-videos-4 {float: left; margin-left: 2%; background: #CCC; width: 23.5%; height: 130px;}
+
+.w1-videos-main {float: left; margin-top: 3%; background: #CCC; width: 64%; height: 360px;}
+.w1-videos-submain-1 {float: right; margin-top: 3%; background: #CCC; width: 33.5%; height: 165px;}
+.w1-videos-submain-2 {float: right; margin-top: 3%; background: #CCC; width: 33.5%; height: 165px;}
+
+.w1-videos-1-1 {float: left; margin-top: 3%; background: #CCC; width: 23.5%;; height: 130px;}
+.w1-videos-2-2 {float: left; margin-left: 2%; margin-top: 3%; background: #CCC; width: 23.5%; height: 130px;}
+.w1-videos-3-3 {float: left; margin-left: 2%; margin-top: 3%; background: #CCC; width: 23.5%; height: 130px;}
+.w1-videos-4-4 {float: left;; margin-left: 2%; margin-top: 3%; background: #CCC; width: 23.5%; height: 130px;}
+
+.p-title-videos {font-size: 23px; display: block;}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 920px) {
+    
+    /* VIDEOS */
+    
+    .w1-videos-1 {float: left; background: #CCC; width: 47%;; height: 160px;}
+.w1-videos-2 {float: left; margin-left: 6%; background: #CCC; width: 47%; height: 160px;}
+.w1-videos-3 {float: left; margin-left: 0; margin-top: 3%; background: #CCC; width: 47%; height: 160px;}
+.w1-videos-4 {float: left; margin-left: 6%; margin-top: 3%; background: #CCC; width: 47%; height: 160px;}
+
+.w1-videos-main {float: left; display: inline-block; margin: 3% 0% 0%; background: #CCC; width: 100%; height: 360px;}
+.w1-videos-submain-1 {float: right; margin-top: 3%; background: #CCC; width: 47%; height: 160px;}
+.w1-videos-submain-2 {float: left; margin-top: 3%; background: #CCC; width: 47%; height: 160px;}
+
+.w1-videos-1-1 {float: left; margin-top: 3%; background: #CCC; width: 32%;; height: 120px;}
+.w1-videos-2-2 {float: left; margin-left: 2%; margin-top: 3%; background: #CCC; width: 32%; height: 120px;}
+.w1-videos-3-3 {float: left; margin-left: 2%; margin-top: 3%; background: #CCC; width: 32%; height: 120px;}
+.w1-videos-4-4 {display: none;}
+    
+    /* P DE VIDEOS */
+.w1-videos-1 p {position: relative; top: 130px;}
+.w1-videos-2 p {position: relative; top: 130px;}
+.w1-videos-3 p {position: relative; top: 130px;}
+.w1-videos-4 p {position: relative; top: 130px;}
+
+.w1-videos-main p {position: relative; top: 330px;}
+.w1-videos-submain-1 p {position: relative; top: 130px;}
+.w1-videos-submain-2 p {position: relative; top: 130px;}
+
+.w1-videos-1-1 p {position: relative; top: 90px;}
+.w1-videos-2-2 p {position: relative; top: 90px;}
+.w1-videos-3-3 p {position: relative; top: 90px;}
+.w1-videos-4-4 p {position: relative; top: 90px;}
+
+/* FIN P DE VIDEOS */
+    
+    /* FIN VIDEOS */
+    
+    
+    .wrapper-col {padding: 0px;}
+    .content-col h1{padding-left: 10px;}    
+    .wrapper-infos-col {width: 98%; padding: 10px;}
+}
+
+
+@media screen and (max-width: 650px) {
+    
+    /* VIDEOS */
+    
+    .w1-videos-1 {float: left; background: #CCC; width: 47%;; height: 120px;}
+.w1-videos-2 {float: left; margin-left: 6%; background: #CCC; width: 47%; height: 120px;}
+.w1-videos-3 {float: left; margin-left: 0; margin-top: 3%; background: #CCC; width: 47%; height: 120px;}
+.w1-videos-4 {float: left; margin-left: 6%; margin-top: 3%; background: #CCC; width: 47%; height: 120px;}
+
+.w1-videos-main {float: left; display: inline-block; margin: 3% 0% 0%; background: #CCC; width: 100%; height: 280px;}
+.w1-videos-submain-1 {float: right; margin-top: 3%; background: #CCC; width: 47%; height: 120px;}
+.w1-videos-submain-2 {float: left; margin-top: 3%; background: #CCC; width: 47%; height: 120px;}
+
+.w1-videos-1-1 {float: left; margin-top: 3%; background: #CCC; width: 49%; height: 120px;}
+.w1-videos-2-2 {float: left; margin-left: 2%; margin-top: 3%; background: #CCC; width: 49%; height: 120px;}
+.w1-videos-3-3 {float: left; margin-left: 0; margin-top: 3%; background: #CCC; width: 49%; height: 120px;}
+.w1-videos-4-4 {display: inline-block; float: left; margin-left: 2%; margin-top: 3%; background: #CCC; width: 49%; height: 120px;}
+    
+    /* P DE VIDEOS */
+.w1-videos-1 p {position: relative; top: 90px;}
+.w1-videos-2 p {position: relative; top: 90px;}
+.w1-videos-3 p {position: relative; top: 90px;}
+.w1-videos-4 p {position: relative; top: 90px;}
+
+.w1-videos-main p {position: relative; top: 250px;}
+.w1-videos-submain-1 p {position: relative; top: 90px;}
+.w1-videos-submain-2 p {position: relative; top: 90px;}
+
+.w1-videos-1-1 p {position: relative; top: 90px;}
+.w1-videos-2-2 p {position: relative; top: 90px;}
+.w1-videos-3-3 p {position: relative; top: 90px;}
+.w1-videos-4-4 p {position: relative; top: 90px;}
+
+/* FIN P DE VIDEOS */
+    
+    /* FIN VIDEOS */
+    
+    .hr-inside-wrapper-col {display: block; margin: 20px auto; width: 90%;}
+    
+}
+
+
+@media screen and (max-width: 460px) {
+    
+    /* VIDEOS */
+    
+    .w1-videos-1 {float: left; background: #CCC; width: 92%; height: 160px; margin: 0% 4%;}
+.w1-videos-2 {float: left; background: #CCC; width: 92%; height: 160px; margin: 3% 4%;}
+.w1-videos-3 {float: left; background: #CCC; width: 92%; height: 160px; margin: 3% 4%;}
+.w1-videos-4 {float: left; background: #CCC; width: 92%; height: 160px; margin: 3% 4%;}
+
+.w1-videos-main {float: left; background: #CCC; width: 100%; height: 210px;}
+.w1-videos-submain-1 {float: right; background: #CCC; width: 92%; height: 160px; margin: 3% 4%;}
+.w1-videos-submain-2 {float: left; background: #CCC; width: 92%; height: 160px; margin: 3% 4%;}
+
+.w1-videos-1-1 {float: left; background: #CCC; width: 92%; height: 160px; margin: 3% 4%;}
+.w1-videos-2-2 {float: left; background: #CCC; width: 92%; height: 160px; margin: 3% 4%;}
+.w1-videos-3-3 {float: left; background: #CCC; width: 92%; height: 160px; margin: 3% 4%;}
+.w1-videos-4-4 {display: inline-block; float: left; background: #CCC; width: 92%; height: 160px; margin: 3% 4%;}
+    
+    
+    /* P DE VIDEOS */
+.w1-videos-1 p {position: relative; top: 130px;}
+.w1-videos-2 p {position: relative; top: 130px;}
+.w1-videos-3 p {position: relative; top: 130px;}
+.w1-videos-4 p {position: relative; top: 130px;}
+
+.w1-videos-main p {position: relative; top: 180px;}
+.w1-videos-submain-1 p {position: relative; top: 130px;}
+.w1-videos-submain-2 p {position: relative; top: 130px;}
+
+.w1-videos-1-1 p {position: relative; top: 130px;}
+.w1-videos-2-2 p {position: relative; top: 130px;}
+.w1-videos-3-3 p {position: relative; top: 130px;}
+.w1-videos-4-4 p {position: relative; top: 130px;}
+
+/* FIN P DE VIDEOS */
+    /* FIN VIDEOS */
+    
+    .content-col {width: 100%; border-radius 0;}
+    .file-col {height: 85px;}
+    .label-for-file-col {height: 85px;}
+    
+    
+    
+    
+    
+    .wrapper-infos-col {width: 100%; padding: 5px; border: 0px; border-radius: 0;}
+}
+
+
+@media screen and (max-width: 330px) {
+    .file-col {display: block; float: none; margin: auto; width: 70%; padding: 5px;}
+    .label-for-file-col {display: block; float: none; width: 100%; padding: 10px;}
+    
+    
+    .wrapper-infos-col {padding: 0;}
+}

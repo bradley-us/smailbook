@@ -1,0 +1,130 @@
+<!Doctype html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+		<title>Smailbook - Inicio</title>
+		<link rel="stylesheet" href="css/estilos.css" />
+        <link rel="icon" type="image/png" href="img/app-icon.png" sizes="16x16" />
+        
+        <link rel="alternate" hreflang="es-co" href="404.php" />
+        <link rel="alternate" hreflang="es-es" href="404.php" />
+        <link rel="alternate" hreflang="en-us" href="en/404.php" />
+        
+        <meta name="author" content="SM Smailbook" />
+        <meta name="keywords" content="Page does not exist on Smailbook, Error 404 Smailbook" />
+        <meta name="description" content="Page not found" />
+        <meta name="classification" content="Error 404" />
+        
+        <?php include('includes/head-elements.php'); ?>
+        
+        
+        
+<!-- GOOGLE COMPLEMENTS -->
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101835135-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+       
+<!-- FIN GOOGLE COMPLEMENTS -->
+      
+       <!-- HEADER -->
+       <script src="http://code.jquery.com/jquery-latest.js"></script>
+       
+       <!-- Submenu-Accordion-from-Body-Section Scripts -->
+       <script src="js/jquery.min.js"></script>
+        <!-- HEADER SCRIPTS -->
+        <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script><!--
+        <script src="js/headroom.min.js"></script>
+        -->
+        
+	</head>
+	
+	<body>
+    <header id="header">
+           <?php include('includes/header.php'); ?>
+		</header>
+    
+     <div class="all-body-all">      
+        
+        
+        <div class="social-bar">
+            <a href="https://www.facebook.com/SM-Smailbook-242020642954345/" class="icon icon-facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/sm_smailbook/" class="icon icon-instagram" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/channel/UCaOMKxzX2FOR2MAEDYYgBXw" class="icon icon-youtube" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+        </div>
+        
+        
+        <div><?php include('includes/header-search.php'); ?></div> 
+        
+        
+        
+        <main class="main-template">
+		<section id="section-error404">
+            <hr style="background-color: #3D92C6; width: 100%; height: 7px; margin: auto;" />
+            
+        <div class="wrapper">
+            <h3>Page was not found on Smailbook</h3>
+            <div id="wrapper-error404">
+            <p>Error 404</p>
+            <p>Try to introduce the correct url in your browser</p>
+            <p>If you want to communicate with Smailbook,</p>
+            <p>you can do it visiting the next url: <a href="templates/informaciones/equipo-de-trabajo/contactanos.php">https://www.smailbook.com/templates/informaciones/equipo-de-trabajo/contactanos.php</a></p>
+            <br/>
+            <p>Or if you simply would want to know more about us, visit the next page: <a href="templates/informaciones/equipo-de-trabajo/sobrenosotros.php">https://www.smailbook.com/templates/informaciones/equipo-de-trabajo/sobrenosotros.php</a></p>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <p>Thank you for visiting <a href="index.php"><i>Smailbook</i></a></p>
+            </div>
+        </div>
+         </section>
+        
+        <footer>
+                    <div> <?php include('includes/footer.php'); ?> </div>
+         </footer>
+        
+        </main>
+        </div>
+        
+        <script src="js/menu.js"></script>
+        <script src="js/submenu-accordion-from-body-section.js"></script>
+        <?php include('includes/scripts-body-bottom.php'); ?>
+        <script src="js/buscador.js"></script>
+        <!-- SLIDER SCRIPTS -->
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.slides.js"></script>
+    <script>
+    $(function(){
+  $(".slides").slidesjs({
+    play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "fade",
+        // [string] Can be either "slide" or "fade".
+      interval: 6000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+  });
+});
+    </script>
+	</body>
+</html>
